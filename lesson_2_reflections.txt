@@ -2,3 +2,11 @@ What happens when you initialize a repository? Why do you need to do it?
 -A structure is allocated for storing version info since then. It is to tell the computer to fossilize the otherwise fleeting, transient info and store it in the .git repository.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 -Staging area offers another layer of control by add (reset) rm commit
+How can you use the staging area to make sure you have one commit per logical change?
+--Repeatedly use "add" until all the pertinent changes you desire are staged, then use "commit" once to bundle the changes in one time.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-When I want to explore spinoff project in parallel with the main one branches offer the right space to do so.
+How do the diagrams help you visualize the branch structure?
+-It is not just a branch, I think we should call it river, becasue there is directionality in it!
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+-get one branch now. Not sure what the Q is about.
