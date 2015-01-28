@@ -10,3 +10,5 @@ How do the diagrams help you visualize the branch structure?
 -It is not just a branch, I think we should call it river, becasue there is directionality in it!
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 -get one branch now. Not sure what the Q is about.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-Automatic merging will provide safety but may generates too much merges with no obious utility.
