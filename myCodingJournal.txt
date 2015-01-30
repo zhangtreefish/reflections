@@ -1,9 +1,20 @@
 Howdy!
 I am Treefish from Texas. The creative aspect of web design brings me to the Nanodegree program.
-I have been a microbiological researcher and a college instructor. I hope to hone skills to present contents in an engaging way to students or other audiences. For example, I tried to write†a song about Kawasaki Disease†to engage my microbiology students and had quite some success, and so I thought what if I went further and created cartoons. I found that I could only do very limited things in places such as GoAnimate without actually learning programming. I prepared myself by taking†the programming courses in Kahn Academy, and finally am here to start this fascinating journey with you guys.†
+I have been a microbiological researcher and a college instructor. I hope to hone skills to present contents in an engaging way to students or other audiences. For example, I tried to write¬†a song about Kawasaki Disease¬†to engage my microbiology students and had quite some success, and so I thought what if I went further and created cartoons. I found that I could only do very limited things in places such as GoAnimate without actually learning programming. I prepared myself by taking¬†the programming courses in Kahn Academy, and finally am here to start this fascinating journey with you guys.¬†
 * 87 views at Kawasaki Disease.
-* Once you have a Google+ account, request to join our†Front-End Web Developer Nanodegree Community.
-* Check out†Participating in Hangouts On Air†to learn how to attend office hours and other events.
+* Once you have a Google+ account, request to join our¬†Front-End Web Developer Nanodegree Community.
+* Check out¬†Participating in Hangouts On Air¬†to learn how to attend office hours and other events.
 * 
-GetBootstrap.com/customize page; The attribute for ìlinkî is ìhrefî, and the attribute for ìscriptî is ìsrcî.
+GetBootstrap.com/customize page; The attribute for ‚Äúlink‚Äù is ‚Äúhref‚Äù, and the attribute for ‚Äúscript‚Äù is ‚Äúsrc‚Äù.
 1/14/15: in Window Command prompt, do cd; the FC oldfile newfile;
+----
+How to set up gitHub credential successfully and painlessly inside git?
+-After I did this : Treefish (master #) ~ $ git push origin master
+-I was prompted for usernmae which I entered: Username for 'https://github.com': zhangtreefish
+-I was prompted for pwd but could not get the cursor to move: Password for 'https://zhangtreefish@github.com':
+-when I hit return anyway I will get this: remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/zhangtreefish/reflections.g
+it/'
+-could not figure out why. One instrutor offered that "I've ran into this before, your password or username is inconsistent with your Github login." I reentered the username and password thousands of time (may be dozens of times) and of course it did not work.
+-Finally I thought of setting the @users.noreply.github.com email address as the public address in gitHub (previously my personal email was set as the public email), as well as the user email at git [using config --global command]. Then the push origin master worked without getting stuck at the password. How I wish the error message were 'git user email not recognized as the public email at gitHub!' "
+-There will be next one challenge around the corner! I hope each will not be that time-consuming...Can we learn programming more efficiently-or one just has to go through this "out-in-the woods lost" stage? In many cases I can not even understand the error message or worse, others' answers.
