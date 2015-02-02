@@ -21,9 +21,9 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    By phone calls, forums, emails, and other ways of communication. The lack of documentation will be a problem without Git or GitHub. Increased (forced) interpersonal communicaiton helps to sprout new ideas.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    Making changes in a separate branch rather than directly in master allows me to keep both the legend and innovation alive. Doing it directly saves the extra step of merging branches, but can be unnerving due to the potential of messing up valuable codes.

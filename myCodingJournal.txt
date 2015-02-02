@@ -4,10 +4,19 @@ I have been a microbiological researcher and a college instructor. I hope to hon
 * 87 views at Kawasaki Disease.
 * Once you have a Google+ account, request to join our Front-End Web Developer Nanodegree Community.
 * Check out Participating in Hangouts On Air to learn how to attend office hours and other events.
-* 
+*
 GetBootstrap.com/customize page; The attribute for “link” is “href”, and the attribute for “script” is “src”.
 1/14/15: in Window Command prompt, do cd; the FC oldfile newfile;
 ----
+To be able to click-open the files in sublime and to set up Sublime launch from git:
+-Treefish ~ $ echo 'alias subl="C:/Program\ Files\ \(x86\)/Sublime\ Text\ 3/sublime_text.exe"' >> ~/.bashrc
+-Treefish ~ $ subl
+sh.exe": C:/Program Files (x86)/Sublime Text 3/sublime_text/exe: No such file or directory-have to close the app and relaunch for the change to take effect!
+ -----
+ To be able to use "git commit" with the automatic prompt for message instead of using "git commit -m <message>" :
+ git config --global core.editor "'C:/Program Files (x86)/Sublime Text 3/sublime_text.exe' -n -w"
+
+------------
 How to set up gitHub credential successfully and painlessly inside git?
 -After I did this : Treefish (master #) ~ $ git push origin master
 -I was prompted for usernmae which I entered: Username for 'https://github.com': zhangtreefish
@@ -17,4 +26,21 @@ fatal: Authentication failed for 'https://github.com/zhangtreefish/reflections.g
 it/'
 -could not figure out why. One instrutor offered that "I've ran into this before, your password or username is inconsistent with your Github login." I reentered the username and password thousands of time (may be dozens of times) and of course it did not work.
 -Finally I thought of setting the @users.noreply.github.com email address as the public address in gitHub (previously my personal email was set as the public email), as well as the user email at git [using config --global command]. Then the push origin master worked without getting stuck at the password. How I wish the error message were 'git user email not recognized as the public email at gitHub!' "
+-----------------
+My Lament
 -There will be next one challenge around the corner! I hope each will not be that time-consuming...Can we learn programming more efficiently-or one just has to go through this "out-in-the woods lost" stage? In many cases I can not even understand the error message or worse, others' answers.
+--------------
+Susan,Thank you for getting back to me! I was able to get pwd recognized after I switched the "public email" at gitHub from my personal to the user.guthub email, but at git it is still asking me for credential, as if I did not enter the git config --global credential.helper wincred line to cach credential [although at least I can go on with git projects now.]
+It is strange to me that the scheduled chat link below produced just a calendar yesterday, but is now taking me to the chat page. Do I not remember correctly or Udacity can direct the same link to diffident site for different user or even the same user on a different day? I am bewildered.  Is origin a reserved word in git? It seems to be like a pronoun for a specific repository, in existence just to be able to do push in git?
+-Hi Shiyu,
+
+That link takes you to coach chat. It doesn't change to my knowledge.
+
+By convention, the default remote repository is called "origin", The syntax to push to it is usually:
+
+git push origin master
+
+Best,
+
+Susan
+---------------------
