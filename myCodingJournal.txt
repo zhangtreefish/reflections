@@ -44,3 +44,10 @@ Best,
 
 Susan
 ---------------------
+add these to sublime to see white space :
+{
+"color_scheme": "Packages/Color Scheme ­ Default/Monokai.tmTheme",
+"draw_white_space": "all",
+"font_size": 15,
+"trim_trailing_white_space_on_save": true
+}
